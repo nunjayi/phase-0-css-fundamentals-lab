@@ -3,3 +3,27 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav>a{
+  color:rgb(62, 240, 45);
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+figcaption{
+  font-size: 12px;
+  text-align: center;
+}
